@@ -8,8 +8,8 @@
 
 :root{
 
-/** COLOURS**/
- 
+/** COLOURS **/
+
 --yellow-green:      hsl(62, 100%, 50%);
 --quick-silver:      hsla(0, 0%, 65%, 1);
 --translucent-red:   rgba(199, 54, 54, 0.586);
@@ -25,7 +25,70 @@
 --light-red:         hsla(0, 100%, 50%, 0.901);
 --black:             rgb(0,0,0);
 --black-alpha-80:    hsla(0, 0%, 0%, 0.8);
---black-alpha-15: hsl(241, 97%, 49%, 0.7);
+--blue-alpha-15:     hsl(241, 97%, 49%, 0.7);
 
 
+/**GRADIENT COLOUR**/
+
+  --loading-text-gradient: linear-gradient(90deg, transparent 0% 16.66%, var(--smoky-black-3) 33.33% 50%,  transparent 66.66% 75%);
+  --gradient-1: linear-gradient(to top,hsla(0, 0%, 0%, 0.9),hsla(0, 0%, 0%, 0.7),transparent);
+
+/** FONTS **/
+
+/*font-family*/
+--fontFamily-forum: 'Forum', cursive;
+--fontFamily-dm_sans: 'DM Sans', sans-serif;
+
+/* font-size */
+--fontSize-display-1: calc(1.3rem + 6.7vw);
+--fontSize-headline-1: calc(2rem + 2.5vw);
+--fontSize-headline-2: calc(1.3rem + 2.4vw);
+--fontSize-title-1: calc(1.6rem + 1.2vw);
+--fontSize-title-2: 2.2rem;
+--fontSize-title-3: 2.1rem;
+--fontSize-title-4: calc(1.6rem + 1.2vw);
+--fontSize-body-1: 2.4rem;
+--fontSize-body-2: 1.6rem;
+--fontSize-body-3: 1.8rem;
+--fontSize-body-4: 1.6rem;
+--fontSize-label-1: 1.4rem;
+--fontSize-label-2: 1.2rem;
+
+/* font-weight */
+--weight-regular: 400;
+--weight-bold: 700;
+
+/* line-height */
+--lineHeight-1: 1em;
+--lineHeight-2: 1.2em;
+--lineHeight-3: 1.5em;
+--lineHeight-4: 1.6em;
+--lineHeight-5: 1.85em;
+--lineHeight-6: 1.4em;
+
+/* letter-spacing */
+--letterSpacing-1: 0.15em;
+--letterSpacing-2: 0.4em;
+--letterSpacing-3: 0.2em;
+--letterSpacing-4: 0.3em;
+--letterSpacing-5: 3px;
+
+
+/*SPACING*/
+--section-space: 80px;
+
+
+/*SHADOW*/
+--shadow-1: 0px 0px 25px 0px hsla(0, 0%, 0%, 0.25);
+
+
+/*BORDER RADIUS*/
+--radius-24: 24px;
+--radius-circle: 50%;
+
+
+/*TRANSITION*/
+--transition-1: 250ms ease;
+--transition-2: 500ms ease;
+--transition-3: 1000ms ease;
 }
