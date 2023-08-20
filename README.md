@@ -1,2 +1,2 @@
-# Web-Dev-Project-1-
-This is a Web Development Project, of a Video Game/Computer Shop. It is aimed at giving a gamer-focused experience, as well as providing an experience that captivates computer enthusiasts. A website, dedicated to Computers enthusiasts and Gamers out there.
+# Web-Dev-Project-1- (In Progress)
+This is a Web Development Project, of a Video Game/Computer Shop. It aims to give a gamer-focused experience and an experience that captivates computer enthusiasts— a website dedicated to Computer enthusiasts and Gamers.
