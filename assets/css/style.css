@@ -289,3 +289,39 @@ body.nav-active { overflow: hidden; }
 
 /** REUSED STYLE */
 
+.container { padding-inline: 16px;
+}
+
+.separator {
+  width: 8px;
+  height: 8px;
+  border:  1px solid var(--yellow-green);
+  transform: rotate(45deg);
+}
+
+.contact-label { font-weight: var(--weight-bold); }
+
+.contact-number {
+  color: var(--yellow-green);
+  max-width: max-content;
+  margin-inline: auto;
+}
+
+.hover-underline {
+  position: relative;
+  max-width: max-content;
+}
+
+.hover-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 5px;
+  border-block: 1px solid var(--yellow-green);
+  transform: scaleX(0.25);
+  opacity: 0;
+  transition: var(--transition-2);
+}
+
