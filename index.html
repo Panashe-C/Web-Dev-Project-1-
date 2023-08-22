@@ -20,7 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
 
   <!--CSS Link-->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/">
 
 <!--Preload Images-->
 <link rel="preload" as="image" href="assets/images/banner_1.jpg">
@@ -86,10 +86,118 @@
 
 <!--HEADER-->
 
-<header class
+<header class class="header" data-header>
+  <div class="container">
+
+    <a href="index.html" class="logo">
+      <img src="./assets/images/glogo.svg" width="160" height="50" alt="Joypad_Logo">
+    </a>
+
+    <nav class="navbar" data-navbar>
+
+      <button class="close-btn" aria-label="close menu" data-nav-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#home" class="logo">
+        <img src="./assets/images/glogo.svg" width="160" height="50" alt="Joypad_Logo">
+      </a>
+
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <a href="#" class="navbar-link hover-underline active">
+            <div class="separator"></div>
+
+            <span class="span">Home</span>
+          </a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#menu" class="navbar-link hover-underline">
+            <div class="separator"></div>
+
+            <span class="span">Games</span>
+          </a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#about" class="navbar-link hover-underline">
+            <div class="separator"></div>
+
+            <span class="span">About Us</span>
+          </a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#shop" class="navbar-link hover-underline">
+            <div class="separator"></div>
+
+            <span class="span">Our Shop</span>
+          </a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#contact" class="navbar-link hover-underline">
+            <div class="separator"></div>
+
+            <span class="span">Contact Us</span>
+          </a>
+        </li>
+
+      </ul>
+
+      <div class="text-center">
+        <p class="headline-1 navbar-title">Visit Us</p>
+
+        <address class="body-4">
+          Techdrone Str, Comp City, Motherwell 9578, SA
+        </address>
+
+        <p class="body-4 navbar-text">Open: 10:00am - 10:00pm</p>
+
+        <a href="mailto:gamers@work.com" class="body-4 sidebar-link">techgamers@adh.com</a>
+
+        <div class="separator"></div>
+
+        <p class="contact-label"></p>
+
+        <a href="tel:+27123456789" class="body-1 contact-number hover-underline">
+          +27 12 345 6789
+        </a>
+      </div>
+
+    </nav>
 
 
+      <!--Link the html file once you've done creating it-->
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Game Section</span>
+    
+        <span class="text text-2" aria-hidden="true">PC Section</span>
+      </a> 
+    
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+    
+      </button>
+      
+      <div class="overlay" data-nav-toggler data-overlay>
+        
+      </div>
+          
+  </div>
+  </header>
 
+  <main>
+    <article>
+
+      <!--#HERO-->
+
+    </article>
+  </main>
 
 <script src="assets/js/script.js"></script>
 </body>
