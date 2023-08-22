@@ -350,5 +350,10 @@ object-fit: cover;
 }
 
 .section-subtible::after {
-  content: url()
+  content: url(/assets/images/separator.svg);
+  display: block;
+  width: 100px;
+  margin-inline: auto;
+  margin-block-start: 5px;
 }
+
