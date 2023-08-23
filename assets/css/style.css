@@ -357,3 +357,16 @@ object-fit: cover;
   margin-block-start: 5px;
 }
 
+.btn{ 
+  position: relative;
+  color: var(--yellow-green);
+  font-size: var(--fontSize-label-2);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing-5);
+  max-width: max-content;
+  border: 2px solid var(--yellow-green);
+  padding: 12px 45px;
+  overflow: hidden;
+  z-index: 1;
+}
