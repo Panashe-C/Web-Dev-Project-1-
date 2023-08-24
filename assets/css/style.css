@@ -162,7 +162,7 @@ body.loaded { overflow:overlay; }
 
 body.nav-active { overflow: hidden; }
 
-::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar { width: 11.5px; }
 
 ::-webkit-scrollbar-track { background-color: transparent; }
 
@@ -589,3 +589,25 @@ btn-secondary {
   100% { background-position: 0%; }
 }
 
+
+
+/***#TOPBAR***/
+
+.topbar{ display: none; }
+
+
+/***#HEADER***/
+
+.header .btn { display: none; }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  padding-block: 40px;
+  z-index: 4;
+  border-block-end: 1px solid transparent;
+  transition: var(--transition-1);
+}
