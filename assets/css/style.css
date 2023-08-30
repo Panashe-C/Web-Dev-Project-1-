@@ -75,7 +75,7 @@
 
 
 /*SPACING*/
---section-space: 80px;
+--section-space: 70px;
 
 
 /*SHADOW*/
@@ -239,7 +239,7 @@ body.nav-active { overflow: hidden; }
 .contact-label { font-weight: var(--weight-bold); }
 
 .contact-number {
-  color: var(--gold-crayola);
+  color: var(--yellow-green);
   max-width: max-content;
   margin-inline: auto;
 }
@@ -406,7 +406,7 @@ object-fit: cover;
 }
 
 btn-secondary {
-  background-color: var(--gold-crayola);
+  background-color: var(--yellow-green);
   color: var(--black);
 }
 
@@ -550,7 +550,7 @@ btn-secondary {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--gold-crayola);
+  background-color: var(--yellow-green);
   z-index: 10;
   display: grid;
   place-content: center;
@@ -616,7 +616,7 @@ btn-secondary {
 .header.active {
   padding-block: 20px;
   background-color: var(--eerie-black-4);
-  border-color: var(--black-alpha-15);
+  border-color: var(--blue-alpha-15); /* Change this colour later*/
 }
 
 .header.hide {
