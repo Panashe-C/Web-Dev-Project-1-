@@ -114,7 +114,7 @@ input,
 button,
 select,
 ion-icon,
-textarea { display:block }
+textarea { display:block; }
 
 a { 
   color:inherit;
@@ -143,7 +143,7 @@ button {cursor:pointer; }
 address {font-style:normal; }
 
 html {
-  font-size: 10pc;
+  font-size: 10px;
   scroll-behavior: smooth;
 }
 
