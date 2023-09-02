@@ -499,7 +499,7 @@ object-fit: cover;
   display: grid;
   place-content: center;
   justify-items: center;
-  transition: var(--transition-2);
+  transition: var(--transition-3);
 }
 
 .preload > * { transition: var(--transition-1); }
