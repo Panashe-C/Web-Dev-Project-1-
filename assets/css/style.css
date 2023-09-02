@@ -230,8 +230,7 @@ body.nav-active { overflow: hidden; }
 
 /** REUSED STYLE */
 
-.container { padding-inline: 16px;
-}
+.container { padding-inline: 16px; }
 
 .separator {
   width: 8px;
