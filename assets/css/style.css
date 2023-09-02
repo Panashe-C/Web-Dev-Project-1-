@@ -260,7 +260,7 @@ body.nav-active { overflow: hidden; }
   width: 100px;
   height: 5px;
   border-block: 1px solid var(--yellow-green);
-  transform: scaleX(0.25);
+  transform: scaleX(0.2);
   opacity: 0;
   transition: var(--transition-2);
 }
