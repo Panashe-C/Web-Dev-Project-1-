@@ -126,21 +126,22 @@ img { height:auto; }
 input,
 button,
 select,
-textarea{
-  background:none;
-  border:none;
-  font:inherit;
+textarea {
+  background: none;
+  border: none;
+  font: inherit;  
 }
+
 input,
 select,
-textarea{
-  width:100%;
-  outline:none;
+textarea {
+  width: 100%;
+  outline: none;
 }
 
-button {cursor:pointer; }
+button {cursor: pointer; }
 
-address {font-style:normal; }
+address {font-style: normal; }
 
 html {
   font-size: 10px;
@@ -158,7 +159,7 @@ body {
   height: 300vh;
 }
 
-body.loaded { overflow:overlay; }
+body.loaded { overflow: overlay; }
 
 body.nav-active { overflow: hidden; }
 
