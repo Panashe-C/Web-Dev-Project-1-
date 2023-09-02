@@ -290,7 +290,7 @@ object-fit: cover;
   margin-block-end: 12px;
 }
 
-.section-subtible::after {
+.section-subtitle::after {
   content: url('../images/separator.svg');
   display: block;
   width: 100px;
