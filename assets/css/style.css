@@ -25,13 +25,13 @@
 --light-red:         hsla(0, 100%, 50%, 0.901);
 --black:             rgb(0,0,0);
 --black-alpha-80:    hsla(0, 0%, 0%, 0.8);
---blue-alpha-15:     hsl(241, 97%, 49%, 0.7);
+--blue-alpha-15:     hsla(241, 72%, 43%, 0.348);
 
 
 /**GRADIENT COLOUR**/
 
   --loading-text-gradient: linear-gradient(90deg, transparent 0% 16.66%, var(--smoky-black-3) 33.33% 50%,  transparent 66.66% 75%);
-  --gradient-1: linear-gradient(to top,hsla(0, 0%, 0%, 0.9),hsla(0, 0%, 0%, 0.7),transparent);
+  --gradient-1: linear-gradient(to top,hsla(0, 80%, 5%, 0.9),hsla(0, 71%, 41%, 0.7),transparent);
 
 /** FONTS **/
 
