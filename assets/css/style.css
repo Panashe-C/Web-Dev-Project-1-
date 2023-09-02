@@ -346,7 +346,7 @@ object-fit: cover;
   transform: translate(-50%, -50%);
 }
 
-btn-secondary {
+.btn-secondary {
   background-color: var(--yellow-green);
   color: var(--black);
 }
