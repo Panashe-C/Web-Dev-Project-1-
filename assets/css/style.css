@@ -660,7 +660,7 @@ btn-secondary {
 .navbar-link .span { transition: var(--transition-1); }
 
 .navbar-link:is(:hover, :focus-visible, .active) .span {
-  color: var(--gold-crayola);
+  color: var(--yellow-green);
   transform: translateX(20px);
 }
 
@@ -1216,7 +1216,7 @@ textarea.input-field {
   transition: var(--transition-1);
 }
 
-.footer-brand .contact-link:is(:hover, :focus-visible) { color: var(--gold-crayola); }
+.footer-brand .contact-link:is(:hover, :focus-visible) { color: var(--yellow-green); }
 
 .footer-brand .wrapper {
   display: flex;
@@ -1289,7 +1289,7 @@ textarea.input-field {
 
 .back-top-btn:is(:hover, :focus-visible) {
   background-color: var(--white);
-  color: var(--gold-crayola);
+  color: var(--yellow-green);
 }
 
 .back-top-btn.active {
