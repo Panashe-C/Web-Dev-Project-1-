@@ -225,66 +225,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/** REUSED STYLE **/
 
-.container { padding-inline: 16px; }
-
-.separator {
-  width: 8px;
-  height: 8px;
-  border: 1px solid var(--yellow-green);
-  transform: rotate(45deg);
-}
-
-.contact-label { font-weight: var(--weight-bold); }
-
-.contact-number {
-  color: var(--yellow-green);
-  max-width: max-content;
-  margin-inline: auto;
-}
-
-.hover-underline {
-  position: relative;
-  max-width: max-content;
-}
-
-.hover-underline::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 5px;
-  border-block: 1px solid var(--yellow-green);
-  transform: scaleX(0.2);
-  opacity: 0;
-  transition: var(--transition-2);
-}
-
-.hover-underline:is(:hover, :focus-visible)::after {
-  transform: scaleX(1);
-  opacity: 1;
-}
-
-.contact-number::after { bottom: -5px; }
-
-.text-center { text-align: center; }
-
-.img-cover {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.section-subtitle {
-  position: relative;
-  color: var(--yellow-green);
-  font-weight: var(--weight-bold);
-  text-transform: uppercase;
-  letter-spacing: var(--letterSpacing-2);
-  margin-block-end: 12px;
-}
 
 
 /** REUSED STYLE */
@@ -350,7 +291,7 @@ object-fit: cover;
 }
 
 .section-subtible::after {
-  content: url(/assets/images/separator.svg);
+  content: url('../images/separator.svg');
   display: block;
   width: 100px;
   margin-inline: auto;
