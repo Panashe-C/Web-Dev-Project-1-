@@ -550,12 +550,13 @@ object-fit: cover;
 
 
 
-/***#TOPBAR***/
+/***                            #TOPBAR                             ***/
 
 .topbar{ display: none; }
 
 
-/***#HEADER***/
+
+/***                          #HEADER                                ***/
 
 .header .btn { display: none; }
 
