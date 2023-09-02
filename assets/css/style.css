@@ -447,7 +447,7 @@ object-fit: cover;
   color: var(--white);
   height: 56px;
   padding: 10px 20px;
-  border: 1px solid var(--white-alpha-10);
+  border: 1px solid var(--light-red);
   margin-block-end: 20px;
   outline: none;
   transition: border-color var(--transition-2);
@@ -699,7 +699,6 @@ object-fit: cover;
 
 .sidebar-link { transition: var(--transition-1); }
 
-
 .sidebar-link:is(:hover, :focus-visible) { color: var(--yellow-green); }
 
 .navbar .text-center .separator {
@@ -709,7 +708,7 @@ object-fit: cover;
 
 .navbar .contact-label { margin-block-end: 10px; }
 
-.navbar::-webkit-scrollbar-thumb { background-color: var(--white-alpha-10); }
+.navbar::-webkit-scrollbar-thumb { background-color: var(--light-red); }
 
 .overlay {
   position: fixed;
@@ -903,7 +902,7 @@ object-fit: cover;
 
 
 
-/*** #ABOUT# ***/
+/***                                #ABOUT#                           ***/
 
 .about .section-text { margin-block: 15px 30px; }
 
@@ -954,7 +953,7 @@ object-fit: cover;
 
 
 
-/*** #SPECIAL GAME# ***/
+/***                          #SPECIAL GAME#                           ***/
 
 .special-game-content { padding-block: 70px; }
 
@@ -975,7 +974,7 @@ object-fit: cover;
 
 .special-game-content .del {
   text-decoration: none;
-  color: var(--davys-grey);
+  color: var(--translucent-red);
 }
 
 .special-game-content .span { color: var(--yellow-green); }
@@ -984,8 +983,8 @@ object-fit: cover;
 
 
 
-
-/*** #MENU# ***/
+ 
+/***                           #MENU#                                 ***/
 
 .menu .section-title { margin-block-end: 40px; }
 
@@ -1053,7 +1052,7 @@ object-fit: cover;
 
 
 
-/** #TESTIMONIALS# **/
+/**                           #TESTIMONIALS#                           **/
 
 .testi {
   padding-block-end: 340px;
@@ -1090,7 +1089,7 @@ object-fit: cover;
 
 
 
-/** #CONTACT# **/
+/**                             #CONTACT#                             **/
 
 .contact-form { margin-block-start: -270px; }
 
@@ -1142,7 +1141,7 @@ textarea.input-field {
 }
 
 
-/** #EVENT# **/
+/**                                 #EVENT#                             **/
 
 .event .section-title { margin-block-end: 40px; }
 
@@ -1190,7 +1189,7 @@ textarea.input-field {
 
 
 
-/** #FOOTER# **/
+/**                             #FOOTER#                               **/
 
 
 .footer-top { margin-block-end: 70px; }
@@ -1282,7 +1281,7 @@ textarea.input-field {
 }
 
 
-/*** #BACK TO TOP# ***/
+/***                          #BACK TO TOP#                           ***/
 
 .back-top-btn {
   position: fixed;
@@ -1686,7 +1685,7 @@ textarea.input-field {
 
 
   /**
-   * SPECIAL DISH
+   * SPECIAL GAME
    */
 
   .special-game {
@@ -1904,7 +1903,7 @@ textarea.input-field {
 
 
   /**
-   * SPECIAL DISH
+   * SPECIAL GAMEs
    */
 
   .special-game-content {
