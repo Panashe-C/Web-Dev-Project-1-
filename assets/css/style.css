@@ -555,7 +555,6 @@ object-fit: cover;
 .topbar{ display: none; }
 
 
-
 /***                          #HEADER                                ***/
 
 .header .btn { display: none; }
@@ -732,7 +731,7 @@ object-fit: cover;
 
 
 
-/*** #HERO ***/
+/***                               #HERO                              ***/
 
 
 
@@ -780,7 +779,7 @@ object-fit: cover;
 }
 
 .hero .slider-item.active .slider-bg {
-  animation: smoothScale 7s linear forwards;
+  animation: smoothScale 5s linear forwards;
 }
 
 @keyframes smoothScale {
