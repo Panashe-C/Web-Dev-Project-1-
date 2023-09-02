@@ -314,7 +314,7 @@ object-fit: cover;
 
 .btn::before {
   content : "";
-  position: relative;
+  position: absolute;
   bottom: 100%;
   left: 50;
   transform: translateX(-50);
