@@ -507,7 +507,7 @@ object-fit: cover;
 .preload.loaded > * { opacity: 0; }
 
 .preload.loaded {
-  transition-delay: 250ms;
+  transition-delay: 265ms;
   transform: translateY(100%);
 }
 
