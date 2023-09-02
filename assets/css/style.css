@@ -511,17 +511,6 @@ btn-secondary {
   transform: translateY(100%);
 }
 
-
-.circle {
-  width: 112px;
-  height: 112px;
-  border-radius: var(--radius-circle);
-  border: 3px solid var(--white);
-  border-block-start-color: var(--smoky-black-3);
-  margin-block-end: 45px;
-  animation: rotate360 1s linear infinite;
-}
-
 .preload .text {
   background-image: var(--loading-text-gradient);
   background-size: 500%;
@@ -570,7 +559,7 @@ btn-secondary {
 .header.active {
   padding-block: 20px;
   background-color: var(--eerie-black-4);
-  border-color: var(--blue-alpha-15); /* Change this colour later*/
+  border-color: var(--blue-alpha-15); 
 }
 
 .header.hide {
