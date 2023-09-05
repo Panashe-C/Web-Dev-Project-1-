@@ -1015,7 +1015,7 @@ body.nav-active { overflow: hidden; }
 .menu-card {
   display: flex;
   align-items: flex-start;
-  gap: 20px;
+  gap: 30px;
 }
 
 .hover\:card .card-banner { background-color: var(--yellow-green); }
@@ -1023,8 +1023,8 @@ body.nav-active { overflow: hidden; }
 .hover\:card .card-banner .img-cover { transition: var(--transition-2); }
 
 .hover\:card:is(:hover, :focus-within) .card-banner .img-cover {
-  opacity: 0.7;
-  transform: scale(1.05);
+  opacity: 0.75;
+  transform: scale(1.02);
 }
 
 .menu-card .card-banner {
@@ -1037,7 +1037,7 @@ body.nav-active { overflow: hidden; }
 .menu-card .card-title:is(:hover, :focus-visible) { color: var(--yellow-green); }
 
 .menu-card .badge {
-  background-color: var(--yellow-green);
+  background-color: var(--light-red);
   color: var(--eerie-black-1);
   font-family: var(--fontFamily-forum);
   max-width: max-content;
