@@ -359,9 +359,15 @@ body.nav-active { overflow: hidden; }
   color: var(--black);
 }
 
-.btn-secondary::before { background-color: var(--smoky-black-1); }
+.btn-secondary::before { background-color: var(--black); }
 
 .btn-secondary .text-2 { color: var(--white); }
+
+/* To resize the button
+.btn-secondary {
+  width: 
+  height: 
+} */
 
 .has-before,
 .has-after {
