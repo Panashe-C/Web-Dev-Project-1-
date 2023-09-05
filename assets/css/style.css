@@ -588,7 +588,7 @@ body.nav-active { overflow: hidden; }
 .header.active {
   padding-block: 20px;
   background-color: var(--eerie-black-4);
-  border-color: var(--blue-alpha);
+  border-color: var(--blue-alpha-15);
 }
 
 .header.hide {
