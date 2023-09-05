@@ -149,22 +149,22 @@ window.addEventListener("mousemove", function (event) {
 
 });
 
-//Video
+// //Video
 
-const gamepanels = document.querySelectorAll('.gamepanel');
+// const gamepanels = document.querySelectorAll('.gamepanel');
 
-gamepanels.forEach((gamepanel) => {
-  const videoPreview = gamepanel.querySelector('.video-preview');
-  const video = gamepanel.querySelector('video');
+// gamepanels.forEach((gamepanel) => {
+//   const videoPreview = gamepanel.querySelector('.video-preview');
+//   const video = gamepanel.querySelector('video');
 
-  gamepanel.addEventListener('mouseenter', () => {
-    videoPreview.style.display = 'block';
-    video.play(); 
-  });
+//   gamepanel.addEventListener('mouseenter', () => {
+//     videoPreview.style.display = 'block';
+//     video.play(); 
+//   });
 
-  gamepanel.addEventListener('mouseleave', () => {
-    videoPreview.style.display = 'none'; 
-    video.pause(); 
-    video.currentTime = 0; 
-  });
-});
+//   gamepanel.addEventListener('mouseleave', () => {
+//     videoPreview.style.display = 'none'; 
+//     video.pause(); 
+//     video.currentTime = 0; 
+//   });
+// });
