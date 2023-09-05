@@ -314,7 +314,7 @@ body.nav-active { overflow: hidden; }
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-5);
   max-width: max-content;
-  border: 2px solid var(--yellow-green);
+  border: 2.05px solid var(--yellow-green);
   padding: 12px 45px;
   overflow: hidden;
   z-index: 1;
