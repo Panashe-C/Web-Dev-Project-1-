@@ -166,7 +166,7 @@ body.loaded { overflow: overlay; }
 
 body.nav-active { overflow: hidden; }
 
-::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar { width: 8.5px; }
 
 ::-webkit-scrollbar-track { background-color: transparent; }
 
