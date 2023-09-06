@@ -149,7 +149,7 @@ window.addEventListener("mousemove", function (event) {
 
 });
 
-// //Video
+// //Video when hover 
 
 // const gamepanels = document.querySelectorAll('.gamepanel');
 
