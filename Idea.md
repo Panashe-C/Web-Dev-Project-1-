@@ -7,3 +7,12 @@ Hey, i am going to stop here for now, However here is something i want us to wor
 I wanted to make the switch smaller but it is alright as it is, so it stands out
 
 
+Red Dead REDEMPTION    |   STREET FIGHTER
+
+SIMS             | NOBODY SAVES THE WORLD
+
+MINE CRAFT  | MARIO BROS 
+
+WALKING DEAD | COD 
+
+GTA | SKYRIM
