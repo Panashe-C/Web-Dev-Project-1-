@@ -168,7 +168,7 @@ body.nav-active { overflow: hidden; }
 
 ::-webkit-scrollbar { width: 8.5px; }
 
-::-webkit-scrollbar-track { background-color: transparent; }
+::-webkit-scrollbar-track { background-color: var(--quick-silver); }
 
 ::-webkit-scrollbar-thumb { background-color: var(--yellow-green); }
 
