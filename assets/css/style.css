@@ -10,7 +10,7 @@
 
 /** COLOURS **/
 
---yellow-green:      hsl(62, 100%, 50%);
+--light-green:      hsl(62, 100%, 50%);
 --quick-silver:      hsla(0, 0%, 65%, 1);
 --translucent-red:   rgba(199, 54, 54, 0.586);
 --smoky-black-1:     hsla(40, 12%, 5%, 1);
@@ -21,11 +21,11 @@
 --eerie-black-3:     hsla(180, 2%, 8%, 1);
 --eerie-black-4:     hsla(0, 0%, 13%, 1);
 --white:             rgb(255, 255, 255);
---white-alpha-20:    hsla(108, 6%, 34%, 0.935);
+--apple-green:    hsla(108, 6%, 34%, 0.935);
 --light-red:         hsla(0, 100%, 50%, 0.901);
 --black:             rgb(0,0,0);
 --black-alpha-80:    hsla(0, 0%, 0%, 0.8);
---blue-alpha-15:     hsla(241, 72%, 43%, 0.348);
+--baby-blue:     hsla(241, 72%, 43%, 0.348);
 
 
 /**GRADIENT COLOUR**/
@@ -170,7 +170,7 @@ body.nav-active { overflow: hidden; }
 
 ::-webkit-scrollbar-track { background-color: var(--quick-silver); }
 
-::-webkit-scrollbar-thumb { background-color: var(--yellow-green); }
+::-webkit-scrollbar-thumb { background-color: var(--light-green); }
 
 
 
@@ -244,14 +244,14 @@ body.nav-active { overflow: hidden; }
 .separator {
   width: 8px;
   height: 8px;
-  border: 1px solid var(--yellow-green);
+  border: 1px solid var(--light-green);
   transform: rotate(45deg);
 }
 
 .contact-label { font-weight: var(--weight-bold); }
 
 .contact-number {
-  color: var(--yellow-green);
+  color: var(--light-green);
   max-width: max-content;
   margin-inline: auto;
 }
@@ -268,7 +268,7 @@ body.nav-active { overflow: hidden; }
   bottom: 0;
   width: 100%;
   height: 5px;
-  border-block: 1px solid var(--yellow-green);
+  border-block: 1px solid var(--light-green);
   transform: scaleX(0.2);
   opacity: 0;
   transition: var(--transition-2);
@@ -291,7 +291,7 @@ body.nav-active { overflow: hidden; }
 
 .section-subtitle {
   position: relative;
-  color: var(--yellow-green);
+  color: var(--light-green);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-2);
@@ -308,13 +308,13 @@ body.nav-active { overflow: hidden; }
 
 .btn {
   position: relative;
-  color: var(--yellow-green);
+  color: var(--light-green);
   font-size: var(--fontSize-label-2);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-5);
   max-width: max-content;
-  border: 2.05px solid var(--yellow-green);
+  border: 2.05px solid var(--light-green);
   padding: 12px 45px;
   overflow: hidden;
   z-index: 1;
@@ -329,7 +329,7 @@ body.nav-active { overflow: hidden; }
   width: 200%;
   height: 200%;
   border-radius: var(--radius-circle);
-  background-color: var(--yellow-green);
+  background-color: var(--light-green);
   transition: var(--transition-2);
   z-index: -1;
 }
@@ -355,7 +355,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .btn-secondary {
-  background-color: var(--yellow-green);
+  background-color: var(--light-green);
   color: var(--black);
 }
 
@@ -420,7 +420,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .btn-text {
-  color: var(--yellow-green);
+  color: var(--light-green);
   padding-block-end: 4px;
   margin-inline: auto;
   text-transform: uppercase;
@@ -468,7 +468,7 @@ body.nav-active { overflow: hidden; }
 
 .input-field::placeholder { color: inherit; }
 
-.input-field:focus { border-color: var(--yellow-green); }
+.input-field:focus { border-color: var(--light-green); }
 
 .icon-wrapper {
   position: relative;
@@ -509,7 +509,7 @@ body.nav-active { overflow: hidden; }
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--yellow-green);
+  background-color: var(--light-green);
   z-index: 10;
   display: grid;
   place-content: center;
@@ -594,7 +594,7 @@ body.nav-active { overflow: hidden; }
 .header.active {
   padding-block: 20px;
   background-color: var(--eerie-black-4);
-  border-color: var(--blue-alpha-15);
+  border-color: var(--baby-blue);
 }
 
 .header.hide {
@@ -665,7 +665,7 @@ body.nav-active { overflow: hidden; }
 
 .navbar .close-btn ion-icon { --ionicon-stroke-width: 40px; }
 
-.navbar .close-btn:is(:hover, :focus-visible) { color: var(--yellow-green); }
+.navbar .close-btn:is(:hover, :focus-visible) { color: var(--light-green); }
 
 .navbar .logo {
   max-width: max-content;
@@ -674,11 +674,11 @@ body.nav-active { overflow: hidden; }
 }
 
 .navbar-list {
-  border-block-end: 1px solid var(--white-alpha-20);
+  border-block-end: 1px solid var(--apple-green);
   margin-block-end: 100px;
 }
 
-.navbar-item { border-block-start: 1px solid var(--white-alpha-20); }
+.navbar-item { border-block-start: 1px solid var(--apple-green); }
 
 .navbar-link {
   position: relative;
@@ -693,7 +693,7 @@ body.nav-active { overflow: hidden; }
 .navbar-link .span { transition: var(--transition-1); }
 
 .navbar-link:is(:hover, :focus-visible, .active) .span {
-  color: var(--yellow-green);
+  color: var(--light-green);
   transform: translateX(20px);
 }
 
@@ -716,7 +716,7 @@ body.nav-active { overflow: hidden; }
 
 .sidebar-link { transition: var(--transition-1); }
 
-.sidebar-link:is(:hover, :focus-visible) { color: var(--yellow-green); }
+.sidebar-link:is(:hover, :focus-visible) { color: var(--light-green); }
 
 .navbar .text-center .separator {
   margin-block: 30px;
@@ -816,7 +816,7 @@ body.nav-active { overflow: hidden; }
   bottom: 15px;
   right: 15px;
   z-index: 2;
-  background-color: var(--yellow-green);
+  background-color: var(--light-green);
   width: 110px;
   height: 110px;
   padding: 12px;
@@ -838,7 +838,7 @@ body.nav-active { overflow: hidden; }
 
 .hero-btn::after {
   inset: 0;
-  border: 1px solid var(--yellow-green);
+  border: 1px solid var(--light-green);
   animation: rotate360 15s linear infinite;
 }
 
@@ -1002,7 +1002,7 @@ body.nav-active { overflow: hidden; }
   color: var(--translucent-red);
 }
 
-.special-game-content .span { color: var(--yellow-green); }
+.special-game-content .span { color: var(--light-green); }
 
 .special-game .btn { margin-inline: auto; }
 
@@ -1024,7 +1024,7 @@ body.nav-active { overflow: hidden; }
   gap: 30px;
 }
 
-.hover\:card .card-banner { background-color: var(--yellow-green); }
+.hover\:card .card-banner { background-color: var(--light-green); }
 
 .hover\:card .card-banner .img-cover { transition: var(--transition-2); }
 
@@ -1040,7 +1040,7 @@ body.nav-active { overflow: hidden; }
 
 .menu-card .card-title { transition: var(--transition-1); }
 
-.menu-card .card-title:is(:hover, :focus-visible) { color: var(--yellow-green); }
+.menu-card .card-title:is(:hover, :focus-visible) { color: var(--light-green); }
 
 .menu-card .badge {
   background-color: var(--light-red);
@@ -1054,7 +1054,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .menu-card .span {
-  color: var(--yellow-green);
+  color: var(--light-green);
   margin-block: 10px;
 }
 
@@ -1065,7 +1065,7 @@ body.nav-active { overflow: hidden; }
 
 .menu-text .span {
   display: inline-block;
-  color: var(--yellow-green);
+  color: var(--light-green);
 }
 
 .menu .btn {
@@ -1110,7 +1110,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .testi .profile-name {
-  color: var(--yellow-green);
+  color: var(--light-green);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-3);
@@ -1130,7 +1130,7 @@ body.nav-active { overflow: hidden; }
 
 .form-text .link {
   display: inline;
-  color: var(--yellow-green);
+  color: var(--light-green);
 }
 
 .form-right .headline-1 { margin-block-end: 40px; }
@@ -1198,7 +1198,7 @@ textarea.input-field {
   top: 30px;
   left: 25px;
   padding: 5px 10px;
-  color: var(--yellow-green);
+  color: var(--light-green);
   background-color: var(--black);
   font-weight: var(--weight-bold);
   letter-spacing: var(--letterSpacing-1);
@@ -1206,7 +1206,7 @@ textarea.input-field {
 }
 
 .event-card .card-subtitle {
-  color: var(--yellow-green);
+  color: var(--light-green);
   text-transform: uppercase;
   font-weight: var(--weight-bold);
   letter-spacing: var(--letterSpacing-2);
@@ -1268,7 +1268,7 @@ textarea.input-field {
   transition: var(--transition-1);
 }
 
-.footer-brand .contact-link:is(:hover, :focus-visible) { color: var(--yellow-green); }
+.footer-brand .contact-link:is(:hover, :focus-visible) { color: var(--light-green); }
 
 .footer-brand .wrapper {
   display: flex;
@@ -1304,7 +1304,7 @@ textarea.input-field {
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover, :focus-visible) { color: var(--yellow-green); }
+.footer-link:is(:hover, :focus-visible) { color: var(--light-green); }
 
 .copyright {
   color: var(--quick-silver);
@@ -1313,7 +1313,7 @@ textarea.input-field {
 
 .copyright .link {
   display: inline;
-  color: var(--yellow-green);
+  color: var(--light-green);
   text-decoration: underline;
 }
 
@@ -1329,7 +1329,7 @@ textarea.input-field {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: var(--yellow-green);
+  background-color: var(--light-green);
   color: var(--smoky-black-1);
   font-size: 22px;
   width: 50px;
@@ -1346,7 +1346,7 @@ textarea.input-field {
 
 .back-top-btn:is(:hover, :focus-visible) {
   background-color: var(--white);
-  color: var(--yellow-green);
+  color: var(--light-green);
 }
 
 .back-top-btn.active {
@@ -1408,7 +1408,7 @@ textarea.input-field {
     left: 0;
     width: 100%;
     padding-block: 10px;
-    border-block-end: 1px solid var(--white-alpha-20);
+    border-block-end: 1px solid var(--apple-green);
     z-index: 4;
     transition: var(--transition-1);
   }
@@ -1437,7 +1437,7 @@ textarea.input-field {
 
   .topbar .link { transition: var(--transition-1); }
 
-  .topbar .link:is(:hover, :focus-visible) { color: var(--yellow-green); }
+  .topbar .link:is(:hover, :focus-visible) { color: var(--light-green); }
 
 
 
@@ -1514,7 +1514,7 @@ textarea.input-field {
     content: "";
     height: 6px;
     flex-grow: 1;
-    border-block: 1px solid var(--white-alpha-20);
+    border-block: 1px solid var(--apple-green);
   }
 
 
@@ -1598,9 +1598,9 @@ textarea.input-field {
     display: grid;
     position: absolute;
     z-index: 1;
-    color: var(--yellow-green);
+    color: var(--light-green);
     font-size: 2.4rem;
-    border: 1px solid var(--yellow-green);
+    border: 1px solid var(--light-green);
     width: 45px;
     height: 45px;
     place-items: center;
@@ -1616,7 +1616,7 @@ textarea.input-field {
   .hero .slider-btn.next { right: 30px; }
 
   .hero .slider-btn:is(:hover, :focus-visible) {
-    background-color: var(--yellow-green);
+    background-color: var(--light-green);
     color: var(--black);
   }
 
@@ -1769,7 +1769,7 @@ textarea.input-field {
     top: 0;
     left: 50%;
     height: 100%;
-    border-inline-start: 1px solid var(--white-alpha-20);
+    border-inline-start: 1px solid var(--apple-green);
   }
 
 
